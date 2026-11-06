@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Bushfires: An Interactive Guide</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts for clean editorial typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<body>
+    <!-- Top Scroll Progress Bar -->
+    <div id="progress-bar" class="doc-progress-bar"></div>
+
+    <!-- Top Progress Line -->
+    <div id="scroll-progress"></div>
+
+    <!-- Cover / Header Section with Background Image -->
+    <header class="doc-header animate-on-scroll">
+        <div class="header-overlay"></div>
+        <div class="container header-content">
+            <h1>Living with Bushfires</h1>
+            <p class="subtitle">A visual exploration of causes, environmental factors, and survival strategies in the Australian landscape.</p>
+            <div class="scroll-prompt">↓ Scroll to read document</div>
+        </div>
+    </header>
+
+    <!-- Main Vertical Story Document -->
+    <main class="document-body">
+
+        <!-- Chapter 1 with Image -->
+        <section class="doc-section animate-on-scroll">
+            <span class="chapter-number">01</span>
+            <h2>The Nature of Australian Bushfires</h2>
+            <p class="lead">Bushfires are a natural part of the Australian landscape. Many native plants, like eucalyptus trees, have adapted to fire and even need heat to open their seeds and grow back.</p>
+            
+            <!-- Embedded Visual -->
+            <div class="image-wrapper">
+                <img src="Assets/Bushfires_Emma Renly_Unsplash.jpg" alt="Bushfire smoke clouds in mountain landscape with large eucalyptus tree in Australia">
+                <figcaption>Flames sweep across the forest floor, burning accumulated grass and leaf litter beneath the tree canopy.</figcaption>
+            </div>
+
+            <p>However, rising global temperatures, prolonged dry spells and heavy fuel accumulation have intensified fire behavior. Ultimately, these changes are turning natural cycles into severe environmental and community threats.</p>
+        </section>
+
+       <!-- Chapter 2: Primary Causes with Dual Images -->
+        <section class="doc-section animate-on-scroll" style="animation-delay: 0.1s;">
+            <span class="chapter-number">02</span>
+            <h2>Primary Causes & Triggers</h2>
+            <p class="lead">Understanding how bushfires ignite is critical to prevention and early response, generally falling into two main categories:</p>
+            
+            <div class="causes-grid">
+                <!-- Cause 1: Natural Ignition -->
+                <div class="cause-card">
+                    <div class="image-wrapper-small">
+                        <img src="Assets/Natural Ignition_Max Larochelle-Unplash.jpg" alt="Dry lightning striking dry landscape">
+                        <figcaption>Natural: Lightning during dry thunderstorms</figcaption>
+                    </div>
+                    <div class="cause-content">
+                        <h3>Natural Ignition</h3>
+                        <p>Lightning strikes during dry thunderstorms are the primary natural ignition source, often sparking fires in remote or inaccessible bushland.</p>
+                    </div>
+                </div>
+
+                <!-- Cause 2: Human Ignition -->
+                <div class="cause-card">
+                    <div class="image-wrapper-small">
+                        <img src="Assets/Human Activity_Tatiana Rudneva_Unsplash.jpg" alt="Unattended campfire or machinery sparks in bushland">
+                        <figcaption>Human: Campfires, machinery sparks or arson</figcaption>
+                    </div>
+                    <div class="cause-content">
+                        <h3>Human Activity</h3>
+                        <p>Accidental sparks from machinery, powerlines, discarded cigarettes, campfires or illegal arson cause major fire outbreaks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- Chapter 3: Key Factors with Individual Visuals -->
+        <section class="doc-section animate-on-scroll" style="animation-delay: 0.2s;">
+            <span class="chapter-number">03</span>
+            <h2>Key Factors Influencing Spread</h2>
+            <p class="lead">Once a fire starts, three main environmental variables dictate how fast and aggressively it moves across the terrain:</p>
+            
+            <div class="factor-stack">
+                <!-- Factor 1: Weather -->
+                <div class="factor-item">
+                    <div class="factor-content">
+                        <h3>Weather</h3>
+                        <p>High ambient temperatures, low humidity, and strong winds rapidly dry out vegetation and drive flames forward.</p>
+                    </div>
+                    <div class="image-wrapper-small">
+                        <img src="Assets/Weather_James R_Unsplash.jpg" alt="Dry landscape under hot hazy sky representing severe fire weather">
+                        <figcaption>High heat and strong winds accelerate fire spread.</figcaption>
+                    </div>
+                </div>
+
+                <!-- Factor 2: Fuel Load -->
+                <div class="factor-item">
+                    <div class="factor-content">
+                        <h3>Fuel Load</h3>
+                        <p>The density of dry leaves, bark, fallen branches, and undergrowth provides combustible material for the fire front.</p>
+                    </div>
+                    <div class="image-wrapper-small">
+                        <img src="Assets/Fuel Load_Aman Upadhyay_Unsplash.jpg" alt="Dry forest floor with fallen timber and leaf litter">
+                        <figcaption>Dry leaf litter and bark act as heavy fuel loads.</figcaption>
+                    </div>
+                </div>
+
+                <!-- Factor 3: Topography -->
+                <div class="factor-item">
+                    <div class="factor-content">
+                        <h3>Topography</h3>
+                        <p>Fires travel significantly faster uphill. Radiant heat pre-heats the fuel slope ahead of the fire line, accelerating ignition.</p>
+                    </div>
+                    <div class="image-wrapper-small">
+                        <img src="Assets/Topography_Nathan Hurst_Unsplash.jpg" alt="Steep mountain slope and terrain topography">
+                        <figcaption>Fires spread rapidly uphill due to radiant pre-heating.</figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chapter 4 with Safety Sign Image -->
+        <section class="doc-section animate-on-scroll" style="animation-delay: 0.3s;">
+            <span class="chapter-number">04</span>
+            <h2>Safety & Preparation Checklist</h2>
+            <p>Being prepared drastically increases survivability. Below are core actions recommended by emergency services:</p>
+            
+            <div class="image-wrapper">
+                <img src="Assets/Safety Emergency Kit_Mathias Reding_Unsplash.jpg" alt="Fire Danger Status and bush fire ready sign showing very high level">
+                <figcaption>Monitoring daily fire danger ratings is critical during bushfire season.</figcaption>
+            </div>
+
+            <ul class="checklist-preview">
+                <li>✓ Clear gutters and dry leaves within 20 meters of buildings.</li>
+                <li>✓ Establish a written, practiced Bushfire Survival Plan.</li>
+                <li>✓ Ensure an independent water supply.</li>
+                <li>✓ Prepare an emergency kit with radio, wool blankets and documents.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Document Footer / References -->
+    <footer class="doc-footer">
+        <div class="container">
+            <h3>References & Data Sources</h3>
+            <p>Australian Climate Service: <a href="https://www.acs.gov.au/pages/hazards-bushfires" target="_blank">Bushfires Overview</a></p>
+            <p>Esri Australia: <a href="https://esriaustralia.com.au/resources/data/australian-bushfires" target="_blank">Bushfire Mapping Data</a></p>
+            <p>SA Country Fire Service: <a href="https://www.cfs.sa.gov.au" target="_blank">Safety & Planning Guides</a></p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
